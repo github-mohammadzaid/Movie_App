@@ -1,0 +1,95 @@
+body {
+  background-color: #121212;
+  color: #fff;
+}
+
+.searchbutton{
+  background-color: #006DA4;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  background-color: #003554;
+}
+
+@media(max-width:575.98px){
+  .navbar .form-inline{
+    flex-direction:column;
+    align-items: stretch;
+  }
+  .navbar .form-inline .form-control{
+    width:100%;
+    margin-bottom:0.5rem;
+  }
+  .navbar .form-inline .btn{
+    width: 100%;
+  }
+}
+
+.App{
+  background-color: #006494;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+.form-inline{
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.container {
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.card-body{
+  background-color:#004D74 ;
+}
+
+.card .card-title {
+  color: black;
+}
+
+.card .btn-primary {
+  background-color: #032030;
+  border-color: #032030;
+}
+
+.pagination .page-item .page-link {
+  background-color: #1e1e1e;
+  color: #fff;
+  border: none;
+}
+
+.pagination .page-item .page-link:hover {
+  background-color: #006DA4;
+  color: #fff;
+}
+
+.pagination .page-item.disabled .page-link {
+  background-color: #333;
+}
+
+.movie-detail img {
+  width: 100%;
+  height: auto;
+}
+
+.movie-detail p {
+  color: #ccc;
+}
+
+.movie-detail .row {
+  margin-top: 20px;
+}
+
+.movie-detail .col-md-2 img {
+  margin-bottom: 10px;
+}
